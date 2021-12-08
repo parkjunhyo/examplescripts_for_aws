@@ -1,0 +1,1 @@
+dab8c560-4d2b-4771-811b-05255d406a64	landixxxxxe-prd	aws	1	none	100.xx.x2.0/24	100.xx.xx.xx/27	27	assigned	#xxxxxx4xxx361	none	xxxxxx-services	prd	attached	2xx1-02-02	permanent	11xxxx61@sxxxxxecom.xom::010xxxx947; 11xxx50@sxxxxom.xom::010xxxx23; 	none
