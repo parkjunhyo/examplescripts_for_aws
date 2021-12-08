@@ -65,17 +65,17 @@ for content in response['Items']:
         pass
     else:
         if compre_attachment.match(content['dx_er_attachment_status']['S']):
-            exp_directory_value = "o-rvhunw3ih9"
+            exp_directory_value = "o-
             exp_security_status = "connected"
-            exp_security_id = "#131086457361"
-            exp_security_version = "for_public_100.64.32.137@13.125.103.170_100.64.32.158@3.36.19.104::for_private_100.64.32.197_100.64.32.218"
-            exp_gateway_account = "#966005033895"
-            exp_gateway_id = "tgw-072d1d6d6eed05d14"
+            exp_security_id = "#"
+            exp_security_version = "f8"
+            exp_gateway_account = "#"
+            exp_gateway_id = "tgw-"
             exp_assgined_region = content['assigned_region']['S']
             if compre_subnet_cloud.search(content['assigned_subnet']['S']):
-                exp_subnet_category = "skt-cloud-subnet"
+                exp_subnet_category = "-cloud-subnet"
             elif compre_subnet_private.search(content['assigned_subnet']['S']):
-                exp_subnet_category = "skt-private-subnet"
+                exp_subnet_category = "-private-subnet"
     #
     info_to_insert = {
             "uuid" : content['uuid']['S'],
